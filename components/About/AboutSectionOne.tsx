@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="핵심 가치와 비전"
+                paragraph="우리 대청환경은 환경 보호를 목적으로 둔 기업으로써, 20년 업력을 기반으로 친환경적인 폐기물 처리와 운송 서비스를 제공하는 데 자부심을 갖고 있습니다. 대한민국의 환경를 지키고, 사회적 책임을 다하는 파트너로서, 지속적인 혁신과 탁월한 서비스로 더 나은 세상을 만들기 위해 노력하고 있습니다."
                 mb="44px"
               />
 
@@ -34,16 +34,16 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                  <div className="w-full px-1 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="20년 업력 폐기물 운반 업체" />
+                    <List text="운반처리를 위한 차량 및 장비 보유" />
+                    <List text="환경 보호를 위한 생태환경 조성" />
                   </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                  <div className="w-full px-1 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="수집운반업 인/허가 자격증 보유" />
+                    <List text="다양한 사회 환경 보호활동" />
+                    <List text="폐기물 처리 관련 컨설팅" />
                   </div>
                 </div>
               </div>

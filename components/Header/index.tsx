@@ -101,9 +101,9 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:w-[42rem]">
                     {menuData.map((menuItem, index) => (
-                      <li key={menuItem.id} className="group relative">
+                      <li key={menuItem.id} className="group relative lg:grow">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}

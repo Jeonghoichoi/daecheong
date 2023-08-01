@@ -14,13 +14,17 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  템플릿 사이트
+                <h1 className="mb-12 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  환경을 아끼는 대청환경, <br />
+                  신뢰할 수 있는 운반 전문가
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  대청환경 홈페이지 작업
+                  환경 문제에 주도적으로 대처하고 있으며, 20년간의 노하우와{" "}
+                  <br />
+                  기술, 지식을 활용하여 환경을 아끼고 지구를 보호하는 고객사의
+                  파트너가 되겠습니다.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -33,7 +37,7 @@ const Hero = () => {
                   >
                     Star on GitHub
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
